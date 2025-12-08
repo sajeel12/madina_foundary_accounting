@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vhm2j%p1t2*zs_e-w1jc*5ws(w#jtp1ftuegyl)*mlt_v9-*qo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["madinafoundary.pythonanywhere.com"]
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    # 'tailwind',
+    'tailwind',
     'theme',
     'django_browser_reload',
     'finance',
