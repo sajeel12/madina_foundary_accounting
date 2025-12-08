@@ -79,13 +79,23 @@ WSGI_APPLICATION = 'accounting_core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'madinafoundary$default',
+        'USER': 'madinafoundary',
+        'PASSWORD': 'ali@123456',
+        'HOST': 'madinafoundary.mysql.pythonanywhere-services.com',  # Or your database host
+        'PORT': '3306',           # Or your database port (e.g., '3306')
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
