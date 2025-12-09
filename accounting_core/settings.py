@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vhm2j%p1t2*zs_e-w1jc*5ws(w#jtp1ftuegyl)*mlt_v9-*qo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["madinafoundary.pythonanywhere.com", "*"]
 
